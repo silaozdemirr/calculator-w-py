@@ -23,5 +23,20 @@ while True:
     if choice == "1":
         result = number1 + number2
 
+    elif choice == "2":
+        result = number1 - number2
+    
+    elif choice == "3":
+        result = number1 * number2
+
+    elif choice == "4":
+        if number2 == 0:
+            print("Error: Division by zero is not allowed!")
+            continue
+
+        result = number1 / number2
+
     print(f"Result: {result}")
+
+
 
