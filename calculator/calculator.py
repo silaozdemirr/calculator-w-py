@@ -16,3 +16,7 @@ while True:
     if choice not in ("1", "2", "3", "4"):
         print("Invalid choice!")
         continue
+
+    number1= float(input("Enter the first number: "))
+    number2= float(input("Enter the second number: "))
+
