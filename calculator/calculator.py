@@ -20,3 +20,8 @@ while True:
     number1= float(input("Enter the first number: "))
     number2= float(input("Enter the second number: "))
 
+    if choice == "1":
+        result = number1 + number2
+
+    print(f"Result: {result}")
+
